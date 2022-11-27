@@ -1,5 +1,4 @@
-import { useState } from 'react';
-import { AppShell, Navbar, Header, Aside, Text, MediaQuery, Burger, useMantineTheme } from '@mantine/core';
+import { AppShell, Navbar, Aside, Text, MediaQuery, useMantineTheme } from '@mantine/core';
 import { FooterLinks } from '~/components/FooterLinks';
 import { HeaderTop } from '~/components/HeaderTop';
 import { useDisclosure } from '@mantine/hooks';

@@ -15,7 +15,7 @@ createEmotionCache({ key: 'mantine' });
 export default function App() {
     return (
         <MantineProvider theme={theme} withGlobalStyles withNormalizeCSS>
-            <NotificationsProvider>
+            <NotificationsProvider limit={3}>
                 <html lang="ru">
                     <head>
                         <StylesPlaceholder />
